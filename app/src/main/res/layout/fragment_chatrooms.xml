@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    tools:context=".Fragments.ChatRoomsFragment">
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:hint="Searching chat room ..."
+      android:text=""
+      android:id="@+id/search_chatrooms"/>
+
+  <Button
+      android:id="@+id/btn_add_chatroom"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="end|bottom"
+      android:layout_margin="16dp"
+      android:background="@drawable/ic_select"
+      />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_below="@+id/search_chatrooms"
+      android:layout_width="match_parent"
+      android:id="@+id/recycle_view"
+      android:layout_height="match_parent"/>
+</RelativeLayout>

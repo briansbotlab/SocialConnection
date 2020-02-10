@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:id="@+id/txt_dialog_chatroom_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Chat Room Name"
+        />
+
+    <Switch
+        android:id="@+id/switch_dialog_chatroom_issecret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Secret :" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/txt_dialog_chatroom_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Chat Room Password"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_chatroom_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="left"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btn_dialog_chatroom_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="right"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>

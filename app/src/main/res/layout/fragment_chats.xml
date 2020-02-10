@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    tools:context=".Fragments.ChatsFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txt_user"
+        android:text="User:"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/txt_user"
+        android:layout_width="match_parent"
+        android:id="@+id/recycle_view_users"
+        android:layout_height="wrap_content"/>
+
+  </RelativeLayout>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/txt_roomr"
+        android:text="Room:"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/txt_roomr"
+        android:layout_width="match_parent"
+        android:id="@+id/recycle_view_rooms"
+        android:layout_height="wrap_content"/>
+
+  </RelativeLayout>
+
+
+
+</LinearLayout>

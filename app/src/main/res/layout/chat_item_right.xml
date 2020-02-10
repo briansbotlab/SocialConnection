@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/profile_image"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/username"/>
+
+        <TextView
+            android:autoLink="web"
+            android:layout_width="wrap_content"
+            android:maxWidth="240dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/show_message"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/background_right"
+            android:layout_alignParentEnd="true"
+            android:text="1111111111111111111111111111111111111111111111"
+            android:layout_alignParentRight="true"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_image"
+            android:id="@+id/show_image"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@drawable/background_right"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_seen"
+            android:text="seen"
+            android:layout_below="@+id/txt_senttime"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_senttime"
+            android:textColor="#000"
+            android:text="11:11:11"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

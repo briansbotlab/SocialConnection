@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1028608371475",
+    "firebase_url": "https://socialconnection-cd010.firebaseio.com",
+    "project_id": "socialconnection-cd010",
+    "storage_bucket": "socialconnection-cd010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028608371475:android:4f6c79b9f3f1aa5ca748e6",
+        "android_client_info": {
+          "package_name": "com.example.socialconnection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028608371475-155kqa8d15d0sv0mhqdl0sentvgai52l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialconnection",
+            "certificate_hash": "dfe0f8990c7d738152e1e819636a9258cdc11e2e"
+          }
+        },
+        {
+          "client_id": "1028608371475-bs27qmf4mca9j9t8kbq1hjh26rsg0hvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8d5FOupfjiajIDfocfKruo_9PhGX4nCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028608371475-bs27qmf4mca9j9t8kbq1hjh26rsg0hvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

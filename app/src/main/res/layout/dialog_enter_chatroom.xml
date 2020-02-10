@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/txt_dialog_enter_chatroom_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Chat Room Password"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_dialog_enter_chatroom_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btn_dialog_enter_chatroom_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>
