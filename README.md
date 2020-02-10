@@ -14,7 +14,7 @@
 <img src="/DemoImages/2.png" width="200">
 
 
-6. 登入後主畫面(Chat 、 ChatRooms 、 Users 、 Profile)
+5. 登入後主畫面(Chat 、 ChatRooms 、 Users 、 Profile)
 
 <img src="/DemoImages/5.png" width="200"> <img src="/DemoImages/7.png" width="200"> <img src="/DemoImages/8.png" width="200"> <img src="/DemoImages/9.png" width="200">
 
